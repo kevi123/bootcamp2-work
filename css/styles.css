@@ -1,12 +1,72 @@
 /* STYLE PRESETS DO NOT ALTER THIS SECTION */
 h1, h2, h3, h4, h5, h6 {
     margin-top:10px;
+    margin: center;
 }
 
 p {
     font-size:16px;
 }
 
+.adoption-section{
+  background-color: lightgrey;
+}
+
+footer{
+  background-color: #000000;
+  color: white;  /*THis changes text color*/
+}
+
+footer p{
+  margin-top: 50px;
+}
+
+/* .navbar-brand
+{
+  background-image: url("../img/petstore_logo.png") ;
+} */
+
+.logo{
+  margin-left: 100px;
+  width: 60px;
+}
+
+  .logo2{
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+  }
+
+/* This is picture for the jumbotron, include class of here to jumbotron */
+.hero {
+    height:300px;
+    background-image: url("../img/hero.jpg");
+    background-size: cover;
+    background-position:center center ;   /* This also changes size of centerimage displayed*/
+    color: white;
+}
+
+.pull-left {
+    float: left;
+}
+
+/*this class pulls everything to the right*/
+.pull-right {
+    float: right;
+}
+
+.centered{
+    margin: 0 auto;
+    /*auto makes margins on left and right even*/
+
+}
+
+.test{
+  margin: center;
+}
+
+/* .text-centered{
+    text-align: center;
+} */
 .fab, .far {
     font-size:30px;
     margin-left:5px;
@@ -14,3 +74,9 @@ p {
 }
 
 /* PLACE YOUR CUSTOM CODE HERE */
+
+@media screen and (max-width:991px){
+  .right-side {
+    text-align: center;
+  }
+}
